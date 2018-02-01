@@ -100,7 +100,7 @@ public class Robot extends IterativeRobot {
 	 * The log method puts interesting information to the SmartDashboard.
 	 */
 	private void log() {
-		// log each of our sub-systems
+		// log each of the sub-systems
 		m_wrist.log();
 		m_elevator.log();
 		m_drivetrain.log();
